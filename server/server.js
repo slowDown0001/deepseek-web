@@ -1,7 +1,9 @@
 import express from 'express';
 import cors from 'cors';
 import OpenAI from 'openai';
-require('dotenv').config(); // Loads .env file
+import dotenv from 'dotenv';
+
+dotenv.config();
 
 const app = express();
 const port = 3000;
